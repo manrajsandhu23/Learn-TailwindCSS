@@ -33,3 +33,7 @@ Configuration
 For adding CSS Classes
 npx tailwind -i [./src/inputFileName] -o [./dist/outputFileName] --watch
 ```
+
+```
+npx tailwind -i ./input.css -o ./style.css --watch
+```

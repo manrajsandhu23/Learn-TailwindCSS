@@ -526,6 +526,18 @@ video {
   margin: 0px;
 }
 
+.m-12 {
+  margin: 3rem;
+}
+
+.m-6 {
+  margin: 1.5rem;
+}
+
+.m-16 {
+  margin: 4rem;
+}
+
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -616,6 +628,27 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-\[100px\] {
+  border-radius: 100px;
+}
+
+.rounded-\[50px\] {
+  border-radius: 50px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-x-0 {
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
 .border-x-2 {
   border-left-width: 2px;
   border-right-width: 2px;
@@ -626,26 +659,17 @@ video {
   border-bottom-width: 2px;
 }
 
-.border-x-0 {
-  border-left-width: 0px;
-  border-right-width: 0px;
-}
-
-.border-r-2 {
-  border-right-width: 2px;
-}
-
-.border-r-4 {
-  border-right-width: 4px;
-}
-
-.border-t-2 {
-  border-top-width: 2px;
+.border-solid {
+  border-style: solid;
 }
 
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-transparent {
+  border-color: transparent;
 }
 
 .bg-\[\#0C134F\] {
@@ -708,10 +732,6 @@ video {
   font-family: blemo;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -722,12 +742,21 @@ video {
   line-height: 2.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
 .font-thin {
   font-weight: 100;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .text-black {
@@ -756,100 +785,14 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
-}
-
-.hover\:m-8:hover {
-  margin: 2rem;
-}
-
-.hover\:scale-105:hover {
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-100:hover {
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:scale-150:hover {
   --tw-scale-x: 1.5;
   --tw-scale-y: 1.5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-110:hover {
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:-scale-\[250\]:hover {
-  --tw-scale-x: -250;
-  --tw-scale-y: -250;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:-scale-150:hover {
-  --tw-scale-x: -1.5;
-  --tw-scale-y: -1.5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-\[250\]:hover {
-  --tw-scale-x: 250;
-  --tw-scale-y: 250;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-\[150\]:hover {
-  --tw-scale-x: 150;
-  --tw-scale-y: 150;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-\[1x\]:hover {
-  --tw-scale-x: 1x;
-  --tw-scale-y: 1x;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-\[2x\]:hover {
-  --tw-scale-x: 2x;
-  --tw-scale-y: 2x;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-\[20\]:hover {
-  --tw-scale-x: 20;
-  --tw-scale-y: 20;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-\[2\.5rem\]:hover {
-  --tw-scale-x: 2.5rem;
-  --tw-scale-y: 2.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:border-4:hover {
-  border-width: 4px;
-}
-
-.hover\:border-8:hover {
-  border-width: 8px;
 }
 
 .hover\:border-2:hover {
@@ -861,33 +804,14 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.hover\:p-24:hover {
-  padding: 6rem;
+.hover\:text-yellow-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(253 224 71 / var(--tw-text-opacity));
 }
 
-.hover\:px-24:hover {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
-.hover\:py-24:hover {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.hover\:text-8xl:hover {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.hover\:text-4xl:hover {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.hover\:text-xl:hover {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.hover\:text-cyan-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(103 232 249 / var(--tw-text-opacity));
 }
 
 .hover\:transition:hover {

@@ -10,7 +10,7 @@
 </head>
 
 <body class="bg-indigo-500 text-center h-screen">
-    <h1 class="text-white text-4xl font-serif my-6">Hello Tailwind</h1>
+    <h1 class="text-white text-6xl font-[blemo]  my-6">Hello Tailwind</h1>
     <div class="grid place-content-center place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-12">
         <!-- Utility Card -->
         <div>
@@ -30,7 +30,7 @@
                 <button class="bg-white px-8 py-2 rounded-2xl hover:bg-slate-200 ">Buy Now</button>
             </div>
         </div>
-        <!-- Card 2  -->
+        <!-- Button Stack  -->
         <div>
             <div class="flex gap">
                 <button
@@ -43,7 +43,33 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="m-16">
+        <div>
+            <nav
+                class="bg-[#0C134F] font-[blemo] w-full flex flex-row justify-between items-center text-white px-4 md:px-16 py-4 ">
 
+                <div>
+                    <h1 class="md:text-2xl font-semibold font-[blemo]">Dev Exploit</h1>
+                </div>
+
+                <ul class="flex font-thin ">
+                    <a class="p-6 font-thin hover:text-cyan-300 cursor-pointer href=" #">Home</a>
+                    <a class="p-6 font-thin hover:text-cyan-300 cursor-pointer href=" #">Services</a>
+                    <a class="p-6 font-thin hover:text-cyan-300 cursor-pointer href=" #">About</a>
+                </ul>
+
+                <div class="sm:hidden">
+                    <a href="#">&#9776;</a>
+                </div>
+
+                <div>
+                    <button
+                        class=" hidden sm:block bg-cyan-500 text-white px-4 py-2 rounded-3xl shadow-lg shadow-cyan-500/50 ">Contact</button>
+                </div>
+
+            </nav>
+        </div>
     </div>
 
 </body>

@@ -25,13 +25,12 @@ Add this in CSS Input File
 Configuration
 
 ```
-// create 2 folders dist and src
 // update config file [content]
 ```
 
 ```
 For adding CSS Classes
-npx tailwind -i [./src/inputFileName] -o [./dist/outputFileName] --watch
+npx tailwind -i [css input file] -o [css output file] --watch
 ```
 
 ```
